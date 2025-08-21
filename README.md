@@ -2,8 +2,6 @@
 
 A high-performance Python framework to **load 10TB of data from a Snowflake Share in just 2h 2ms** — powered by **parallel chunking, multi-threading, and config-driven orchestration**.
 
----
-
 ## ✨ Key Highlights
 - ⚡ **Parallel ingestion** using Python `ThreadPoolExecutor`
 - 📊 **Smart chunking** to balance workload across threads
@@ -12,13 +10,11 @@ A high-performance Python framework to **load 10TB of data from a Snowflake Shar
 - 🔒 **Secrets in `.env`** — no hardcoded credentials
 - ✅ **Validation built-in** (source vs target row counts)
 
----
 
 ## 🖼️ Architecture
 
 ![Snowflake Parallel Loader Architecture](docs/diagram.png)
 
----
 
 ## 📂 Project Structure
 
@@ -42,7 +38,6 @@ snowflake_project/
 ├── requirements.txt       # Python dependencies
 └── logs/                  # Folder to save logs
 ```
-
 
 ## 🛠️ Benefits of Key Design Choices
 
