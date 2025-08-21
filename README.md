@@ -21,24 +21,28 @@ A high-performance Python framework to **load 10TB of data from a Snowflake Shar
 ---
 
 ## 📂 Project Structure
+
+```
 snowflake_project/
-│── main.py # Entry point
-│── data_ingestion.py # Multi-threaded inserts
-│── chunk_calc.py # Chunk size calculator
-│── chunk_summary.py # Summary logs (per-thread + total)
-│── source_row_count.py # Source row count
-│── validation.py # Post-load validation
-│── logger.py # Central logging
-│── utils.py # Config + connection helpers
-│── config/
-│ └── config.yaml # SQL definitions (truncate, etc.)
-| └── settings.py # converting Snowflake credentials for easy read
-│── .env # Snowflake credentials
-│── docs/
-│ └── diagram.png # Architecture diagram
-| └── test_results.png # Screenshot of actual run
-|── requirements.txt #python dependencies
-|── logs #Folder to save logs
+├── main.py                # Entry point
+├── data_ingestion.py      # Multi-threaded inserts
+├── chunk_calc.py          # Chunk size calculator
+├── chunk_summary.py       # Summary logs (per-thread + total)
+├── source_row_count.py    # Source row count
+├── validation.py          # Post-load validation
+├── logger.py              # Central logging
+├── utils.py               # Config + connection helpers
+├── config/
+│   ├── config.yaml        # SQL definitions (truncate, etc.)
+│   └── settings.py        # Converting Snowflake credentials for easy read
+├── .env                   # Snowflake credentials
+├── docs/
+│   ├── diagram.png        # Architecture diagram
+│   └── test_results.png   # Screenshot of actual run
+├── requirements.txt       # Python dependencies
+└── logs/                  # Folder to save logs
+```
+
 
 ## 🛠️ Benefits of Key Design Choices
 
@@ -55,8 +59,10 @@ snowflake_project/
 
 📈 Results
 
-✅ Successfully ingested 10TB from Snowflake share into target schema using a Snowflake Gen 1 XL (2-cluster) warehouse with a standard scaling policy
+✅ Successfully ingested 10TB from Snowflake share into target schema using a Snowflake Gen-1 XL (2-cluster) warehouse with a standard scaling policy (Screenshot below)
+
 ✅ End-to-end load completed in 2h 2ms.
+
 ✅ Automated summary logs with per-thread breakdown + total validation.
 
 ![Snowflake Parallel Loader Architecture](docs/test_results.png)
