@@ -1,6 +1,6 @@
 # 🚀 Snowflake Parallel Data Loader
 
-A high-performance Python framework to **load 10TB of data from a Snowflake Share in just 2h 2ms** — powered by **parallel chunking, multi-threading, and config-driven orchestration**.
+A high-performance Python framework to **load 10TB of data from a Snowflake Share in just 2h 4ms** — powered by **parallel chunking, multi-threading, and config-driven orchestration**.
 
 ## ✨ Key Highlights
 - ⚡ **Parallel ingestion** using Python `ThreadPoolExecutor`
@@ -56,7 +56,7 @@ snowflake_project/
 
 ✅ Successfully ingested 10TB from Snowflake share into target schema using a Snowflake Gen-1 XL (2-cluster) warehouse with a standard scaling policy (Screenshot below)
 
-✅ End-to-end load completed in 2h 2ms.
+✅ End-to-end load completed in 2h 4ms.
 
 ✅ Automated summary logs with per-thread breakdown + total validation.
 
