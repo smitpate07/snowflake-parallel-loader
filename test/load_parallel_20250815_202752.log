@@ -1,0 +1,143 @@
+2025-08-15 20:27:52 [Thread MainThread - ID 23492] INFO: Starting parallel load job
+2025-08-15 20:27:52 [Thread MainThread - ID 23492] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:52 [Thread MainThread - ID 23492] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:53 [Thread MainThread - ID 23492] INFO: query: [SELECT COUNT(*) FROM SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.STORE_SALES]
+2025-08-15 20:27:53 [Thread MainThread - ID 23492] INFO: query execution done
+2025-08-15 20:27:53 [Thread MainThread - ID 23492] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:53 [Thread MainThread - ID 23492] INFO: closed
+2025-08-15 20:27:53 [Thread MainThread - ID 23492] INFO: No async queries seem to be running, deleting session
+2025-08-15 20:27:54 [Thread MainThread - ID 23492] INFO: Total rows in source table: 288,010,550,524
+2025-08-15 20:27:54 [Thread MainThread - ID 23492] INFO: Calculated number of chunks: 9
+2025-08-15 20:27:54 [Thread MainThread - ID 23492] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:54 [Thread MainThread - ID 23492] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread MainThread - ID 23492] INFO: query: [TRUNCATE TABLE SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1]
+2025-08-15 20:27:55 [Thread MainThread - ID 23492] INFO: query execution done
+2025-08-15 20:27:55 [Thread MainThread - ID 23492] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:55 [Thread MainThread - ID 23492] INFO: Target table STORE_SALES truncated before load.
+2025-08-15 20:27:55 [Thread MainThread - ID 23492] INFO: closed
+2025-08-15 20:27:55 [Thread MainThread - ID 23492] INFO: No async queries seem to be running, deleting session
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:55 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 20:27:56 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:56 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:56 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: query execution done
+2025-08-15 20:27:56 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:56 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: Chunk 4 (Thread ID 15224): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 4
+2025-08-15 20:27:56 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: Chunk 0 (Thread ID 8280): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 0
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: query: [ALTER SESSION SET USE_CACHED_RESULT = FALSE;]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: Chunk 1 (Thread ID 16820): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: Chunk 2 (Thread ID 9072): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 2
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: Chunk 6 (Thread ID 13092): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 6
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: Chunk 7 (Thread ID 2444): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 7
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: Chunk 5 (Thread ID 14188): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 5
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: Chunk 3 (Thread ID 19312): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 3
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: query execution done
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: Number of results in first chunk: 1
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: Chunk 8 (Thread ID 18144): Starting — MOD(ABS(HASH(SS_SOLD_DATE_SK, SS_TICKET_NUMBER)), total_chunks) = 8
+2025-08-15 20:27:57 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: query: [INSERT INTO SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1 SELECT * FROM SNO...]
+2025-08-15 21:35:11 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: query execution done
+2025-08-15 21:35:11 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: Chunk 0 (Thread ID 8280): Inserted 32,001,448,220 rows successfully
+2025-08-15 21:35:11 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: closed
+2025-08-15 21:35:11 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: query execution done
+2025-08-15 21:35:11 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: Chunk 6 (Thread ID 13092): Inserted 32,002,105,104 rows successfully
+2025-08-15 21:35:11 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: closed
+2025-08-15 21:35:12 [Thread ThreadPoolExecutor-28_0 - ID 8280] INFO: No async queries seem to be running, deleting session
+2025-08-15 21:35:12 [Thread ThreadPoolExecutor-28_6 - ID 13092] INFO: No async queries seem to be running, deleting session
+2025-08-15 21:35:14 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: query execution done
+2025-08-15 21:35:14 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: Chunk 7 (Thread ID 2444): Inserted 32,001,998,951 rows successfully
+2025-08-15 21:35:14 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: closed
+2025-08-15 21:35:14 [Thread ThreadPoolExecutor-28_7 - ID 2444] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:16:08 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: query execution done
+2025-08-15 22:16:08 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: Chunk 5 (Thread ID 14188): Inserted 32,000,302,992 rows successfully
+2025-08-15 22:16:08 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: closed
+2025-08-15 22:16:08 [Thread ThreadPoolExecutor-28_5 - ID 14188] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:30:28 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: query execution done
+2025-08-15 22:30:28 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: Chunk 2 (Thread ID 9072): Inserted 32,000,303,089 rows successfully
+2025-08-15 22:30:28 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: closed
+2025-08-15 22:30:28 [Thread ThreadPoolExecutor-28_2 - ID 9072] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:30:33 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: query execution done
+2025-08-15 22:30:33 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: Chunk 3 (Thread ID 19312): Inserted 32,001,534,694 rows successfully
+2025-08-15 22:30:33 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: closed
+2025-08-15 22:30:34 [Thread ThreadPoolExecutor-28_3 - ID 19312] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:31:13 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: query execution done
+2025-08-15 22:31:13 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: Chunk 1 (Thread ID 16820): Inserted 32,000,654,825 rows successfully
+2025-08-15 22:31:13 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: closed
+2025-08-15 22:31:13 [Thread ThreadPoolExecutor-28_1 - ID 16820] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:31:14 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: query execution done
+2025-08-15 22:31:14 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: Chunk 8 (Thread ID 18144): Inserted 32,001,440,699 rows successfully
+2025-08-15 22:31:14 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: closed
+2025-08-15 22:31:14 [Thread ThreadPoolExecutor-28_8 - ID 18144] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:31:21 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: query execution done
+2025-08-15 22:31:21 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: Chunk 4 (Thread ID 15224): Inserted 32,000,761,950 rows successfully
+2025-08-15 22:31:21 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: closed
+2025-08-15 22:31:21 [Thread ThreadPoolExecutor-28_4 - ID 15224] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:31:21 [Thread MainThread - ID 23492] INFO: Snowflake Connector for Python Version: 3.0.3, Python Version: 3.11.0, Platform: Windows-10-10.0.26100-SP0
+2025-08-15 22:31:21 [Thread MainThread - ID 23492] INFO: This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2025-08-15 22:31:23 [Thread MainThread - ID 23492] INFO: query: [SELECT COUNT(*) FROM SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.STORE_SALES]
+2025-08-15 22:31:23 [Thread MainThread - ID 23492] INFO: query execution done
+2025-08-15 22:31:23 [Thread MainThread - ID 23492] INFO: Number of results in first chunk: 1
+2025-08-15 22:31:23 [Thread MainThread - ID 23492] INFO: query: [SELECT COUNT(*) FROM SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES_1]
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: query execution done
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Number of results in first chunk: 1
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Source row count: 288,010,550,524, Target row count: 288,010,550,524
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Row count verification PASSED.
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: closed
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: No async queries seem to be running, deleting session
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: ==================================================
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: FINAL ROW COUNT SUMMARY PER THREAD
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 8280: 32,001,448,220 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 13092: 32,002,105,104 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 2444: 32,001,998,951 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 14188: 32,000,302,992 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 9072: 32,000,303,089 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 19312: 32,001,534,694 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 16820: 32,000,654,825 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 18144: 32,001,440,699 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Thread ID 15224: 32,000,761,950 rows inserted
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: TOTAL rows inserted across all threads: 288,010,550,524
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: ==================================================
+2025-08-15 22:31:27 [Thread MainThread - ID 23492] INFO: Parallel load job completed.

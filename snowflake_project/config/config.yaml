@@ -1,0 +1,11 @@
+queries:
+  truncate_table: "TRUNCATE TABLE SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES"
+  source_row_count: "SELECT COUNT(*) FROM SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.STORE_SALES"
+
+validation_queries:
+  source_row_count: "SELECT COUNT(*) FROM SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.STORE_SALES"
+  target_row_count: "SELECT COUNT(*) FROM SNOWFLAKE_LEARNING_DB.SNOWFLAKE_TEST.STORE_SALES"
+
+chunk_calc:
+  min_rows_per_chunk: 30_000_000_000
+  max_concurrency: 10
