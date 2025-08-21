@@ -57,7 +57,7 @@ snowflake_project/
 - Reduces downtime and **avoids locking issues** on large tables.
 - Allows **incremental updates** efficiently without reloading the entire table from scratch.
 
-📈 Results
+## 📈 Results
 
 ✅ Successfully ingested 10TB from Snowflake share into target schema using a Snowflake Gen-1 XL (2-cluster) warehouse with a standard scaling policy (Screenshot below)
 
