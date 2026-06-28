@@ -54,7 +54,7 @@ snowflake_project/
 
 ## 📈 Results
 
-✅ Successfully ingested 10TB from Snowflake share into target schema using a Snowflake Gen-1 XL (2-cluster) warehouse with a standard scaling policy (Screenshot below)
+✅ Successfully ingested 10TB from Snowflake share into target schema using a Snowflake Gen-1 XL (2-cluster) warehouse with a standard scaling policy (Screenshot below).
 
 ✅ End-to-end load completed in 2h 4ms.
 
