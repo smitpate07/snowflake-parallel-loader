@@ -3,7 +3,7 @@
 A high-performance Python framework to **load 10TB of data from a Snowflake Share in just 2h 4ms** — powered by **parallel chunking, multi-threading, and config-driven orchestration**.
 
 ## ✨ Key Highlights
-- ⚡ **Parallel ingestion** using Python `ThreadPoolExecutor`
+- ⚡ **Parallel ingestion** using Python `ThreadPoolExecutor`.
 - 📊 **Smart chunking** to balance workload across threads
 - 📝 **Centralized logging** with per-thread row counts & job summary
 - 🔧 **Config-driven SQL** (YAML) for flexible pipeline control
