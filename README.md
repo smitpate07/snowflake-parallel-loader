@@ -8,7 +8,7 @@ A high-performance Python framework to **load 10TB of data from a Snowflake Shar
 - 📝 **Centralized logging** with per-thread row counts & job summary.
 - 🔧 **Config-driven SQL** (YAML) for flexible pipeline control.
 - 🔒 **Secrets in `.env`** — no hardcoded credentials.
-- ✅ **Validation built-in** (source vs target row counts)
+- ✅ **Validation built-in** (source vs target row counts).
 
 
 ## 🖼️ Architecture
