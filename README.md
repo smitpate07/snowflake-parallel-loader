@@ -31,7 +31,7 @@ snowflake_project/
 ├── config/
 │   ├── config.yaml        # SQL definitions (truncate, etc.)
 │   └── settings.py        # Converting Snowflake credentials for easy read
-├── .env                   # Snowflake credentials
+├── .env                   # Snowflake connection credentials
 ├── docs/
 │   ├── diagram.png        # Architecture diagram
 │   └── test_results.png   # Screenshot of actual run
