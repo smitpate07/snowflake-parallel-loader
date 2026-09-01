@@ -45,7 +45,7 @@ snowflake_project/
 - Ensures **even data distribution** across virtual warehouses.
 - Improves **parallel insert performance** by minimizing data skew.
 - Enhances **query performance** for analytical workloads.
-- Reduces contention during **multi-threaded inserts**.
+- Reduces contention during **multi-threaded inserts**
 
 ### `INSERT OVERWRITE INTO` vs `CREATE OR REPLACE TABLE`
 - Updates target tables **without dropping them**, preserving table schema, constraints, and grants.
